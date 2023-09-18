@@ -12,6 +12,7 @@ import NewEventPage from "./pages/NewEvent";
 import RootLayout from "./pages/Root";
 import { action as formAction } from "./components/EventForm";
 import Newsletter, { action as newsLetterAction } from "./pages/Newsletter";
+import NewProductsPage from "./pages/NewProducts";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
         path: "newsletter",
         element: <Newsletter />,
         action: newsLetterAction,
+      },
+      {
+        path: "products",
+        element: <NewProductsPage />,
       },
     ],
   },

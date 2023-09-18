@@ -38,6 +38,16 @@ function MainNavigation() {
               newsLetter
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              new products
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <NewsletterSignup />

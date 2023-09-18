@@ -13,6 +13,7 @@ function NewProductsPage() {
     <div>
       <button onClick={toggleCartHandler}>show cart</button>
       <p>Some Products</p>
+      <p>Some new Products</p>
       {showCart && (
         <ul>
           {Products.map((product) => (

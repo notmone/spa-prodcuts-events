@@ -12,7 +12,7 @@ function NewProductsPage() {
   return (
     <div>
       <button onClick={toggleCartHandler}>show cart</button>
-      <div><p>Do You Wanna know about new products?</p></div>
+    <p>click on button</p>
       <p>Some new Products</p>
       {showCart && (
         <ul>

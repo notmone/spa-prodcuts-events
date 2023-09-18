@@ -12,6 +12,7 @@ function NewProductsPage() {
   return (
     <div>
       <button onClick={toggleCartHandler}>show cart</button>
+      <p>Some Products</p>
       {showCart && (
         <ul>
           {Products.map((product) => (
